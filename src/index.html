@@ -3,12 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+
+  <!-- etiqueta para salto de linea -->
+  </br>
+
+    <p>Conversaciones seguras</p>
+
+    <div></div>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+    <input type="text" id="texto" placeholder="Texto a cifrar">
+
+    <input type="number" id="offset" placeholder="numero">
+    <button id="cifrar">CIFRAR texto</button>
+   <!-- <input type="text" id="texto-cifrado" placeholder="Texto a cifrar" -->
+
+    <p id= "texto-cifrado">
+
+    </p>
+    <button id="descifrar">DESCIFRAR texto</button>
+<p id="decifrar-texto">
+</p>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
