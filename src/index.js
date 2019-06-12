@@ -2,8 +2,7 @@ let mensaje = document.getElementById("texto");
 let cifrar= document.getElementById("cifrar");
 let numero= document.getElementById("offset");
 let decifrar= document.getElementById("descifrar");
-let msj= mensaje.value;
-let offset = numero.value;
+
 
 cifrar.addEventListener("click",()=>{
     let msj= mensaje.value;
