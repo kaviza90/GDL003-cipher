@@ -5,8 +5,9 @@ window.cipher = {
 
 for (let i=0;i<msj.length;i++){
   let textoconvertido= msj.charCodeAt(i);
-  if (textoconvertido===32){
-   let cambioDePosicion= String.fromCharCode(textoconvertido);
+  if (textoconvertido>=32 && textoconvertido<=64){
+        let textoconvertido= msj.charCodeAt(i);
+        let cambioDePosicion= String.fromCharCode(textoconvertido);
    resultado += cambioDePosicion;
  } else if(textoconvertido>=65 && textoconvertido <=90) {
     let textoconvertido= msj.charCodeAt(i);
@@ -37,8 +38,9 @@ return(resultado);
 
     for (let i=0;i<msj.length;i++){
       let textoconvertido= msj.charCodeAt(i);
-      if (textoconvertido===32){
-       let cambioDePosicion= String.fromCharCode(textoconvertido);
+      if (textoconvertido>=32 && textoconvertido<=64){
+            let textoconvertido= msj.charCodeAt(i);
+            let cambioDePosicion= String.fromCharCode(textoconvertido);
        resultado += cambioDePosicion;
      } else if(textoconvertido>=65 && textoconvertido <=90) {
         let textoconvertido= msj.charCodeAt(i);
