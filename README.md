@@ -9,4 +9,5 @@ Los objetivos de los usuarios es evitar que alguien se entrometa o espíe sus co
 
 
 #### ¿Cómo creo que el producto Conversaciones Seguras está resolviendo sus problemas?
+
 Conversaciones Seguras tiene la finalidad de mantener un mensaje secreto para personas ajenas a una conversación, por lo tanto aporta la seguridad a los usuarios (un transmisor y un receptor) de la página  para que sus mensajes nadie los conozca más que las personas que se deseen lo hagan.
